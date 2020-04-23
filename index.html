@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Page Title</title>
+</head>
+<body>
+
+<h2>Basic commands:</h2>
+<ol>
+    <li>git config --global user.name "name" - input user name;</li>
+    <li>git config --global user.email "email" - input user email;</li>
+    <li>git init - creating the repository;</li>
+    <li>git status - output information about the repository (status -s - short information); for more info we can use "git diff";</li>
+    <li>git add - adding the file under control before commiting (add . - add all files in folder; git remote add origin LINK - add remote repository to GIT);</li>
+    <li>git commit - save changes from local files to repository (commit -m "comment" - adding comment about commit; commit --amend - cancelling the commit);</li>
+    <li>git log - output the history of all commits;</li>
+    <li>git checkout - check/move to certain commit (checkout <commitname> - move to);</li>
+    <li>git branch - create branch from main commit;</li>
+    <li>git push - saving changes to remote repository (origin "branch/main name" - saving from certain branch, after this command we can use only push);</li>
+    <li>git pull - download changes from local to remote repository;</li>
+    <li>git merge - connect two versions from different branches;</li>
+    <li>git clone - copy existing repository;</li>
+    <li>.gitignore - ignore some files while adding all files (for example: *.[a] - ignore all files, names of which end on "a");</li>
+    <li>ls - show files in the folder;</li>
+    <li>cd - move Git Bash to folder.</li>
+</ol>
+
+<h2>Anvanced:</h2>
+<ol>
+    <li>git revert - turns back to commit and allows you to change it;</li>
+    <li>git reset HEAD <filename>- cancelling command "git add";</li>
+    <li>git rebase - moves your branch from one to another commit;</li>
+    <li>git cherry-pick - takes the commit from one branch and move to another;</li>
+    <li>git stash - creates tentative version of your work without connecting to main working branch.</li>
+</ol>
+
+</body>
+</html>
